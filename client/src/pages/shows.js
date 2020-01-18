@@ -26,9 +26,6 @@ export default class Shows extends Component {
                 {/* {console.log(444444, graduate)} */}
                 <h3>{graduate.login}</h3>
                 <div>
-                  <a href={graduate.repos_url}>Repos: {graduate.repos_url}</a>
-                </div>
-                <div>
                   <img src={graduate.avatar_url}/>
                 </div>
               </div>
